@@ -44,6 +44,10 @@ export default {
     mounted() {
         this.goTo('Chart')
         this.api.charts.getCharts()
+
+        fetch('http://localhost:8000/api/hello')
+            .then(() => {})
+            .catch(() => {})
     },  
 }
 </script>
