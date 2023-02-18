@@ -1,12 +1,13 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import Chart from '@/components/charts/Chart.vue'
+
+import Main from '@/components/Main.vue'
 
 const routes = [
     {
         path: '/',
-        name: 'Chart',
-        component: Chart,
-    }
+        name: 'Main',
+        component: Main,
+    },
 ]
 
 export default createRouter({
